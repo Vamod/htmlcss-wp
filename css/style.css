@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .clearfix::after {
@@ -54,9 +55,7 @@ header .container {
 }
 
 .main-text i {
-    font-size: 80px;
-    height: 100px;
-    width: 100px;
+    font-size: 70px;
     color: white;
 }
 
@@ -68,7 +67,7 @@ header .container {
 }
 
 .main-text h3 {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 30px;
     width: 100%;
 }
@@ -79,14 +78,15 @@ nav {
 }
 
 nav .container {
-    background-color: green;
+    background-color: grey;
     height: 100%;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 nav li {
     display: inline-block;
+    font-size: 12px;
     padding: 0 10px;
     text-decoration: none;
     color: white;
@@ -99,59 +99,69 @@ aside {
 }
 
 aside .container {
-    background-color: violet;
-    height: 100%;
-}
-
-main {
-    width: 50%;
-    height: 1200px;
-    float: left;
-    padding: 10px;
-}
-
-main .container {
-    background-color: purple;
+    background-color: white;
     height: 100%;
 }
 
 aside section {
-    height: 350px;
     width: 100%;
 }
 
-aside section.left:first-child {
-    height: 500px;
+aside section.left {
     padding-bottom: 20px;
 }
 
-aside section.left:nth-child(2) {
-    height: 100px;
-    padding-bottom: 20px;
+section.left .container {
+    padding: 10px;
 }
 
-aside section.left:nth-child(3) {
-    height: 300px;
+section.left i {
+    font-size: 40px;
+    color: orange;
 }
 
 
+section.left p {
+    color: green;
+}
 
 aside section.right:first-child {
     padding-bottom: 20px;
-    height: 100px;
 }
 
 aside section.right:nth-child(2) {
-    height:200px;
+    padding-bottom: 20px;
 }
 
 
 section .container {
-    background-color: violet;
+    background-color: white;
     height: 100%;
     width: 100%;
 }
 
+main {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    line-height: 25px;
+}
+
+main .container {
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+}
+
+main h4 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+section.left p {
+    line-height: 25px;
+    margin: 10px 0px;
+}
 
 footer {
     height: 200px;
@@ -159,6 +169,6 @@ footer {
 }
 
 footer .container {
-    background-color: lightblue;
+    background-color: white;
     height: 100%;
 }
