@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: url('../img/wood-bkg.jpg');
+}
+
+.mega-container {
+    padding: 10px;
+}
+
+header {
+    height: 200px;
+    padding:10px;
+}
+
+header .container {
+    background-color: yellow;
+    height: 100%;
+    position: relative;
+}
+
+.container nav {
+    height: 50px;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+aside {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+aside .container {
+    background-color: violet;
+    height: 100%;
+}
+
+main {
+    width: 50%;
+    height: 1200px;
+    float: left;
+    padding: 10px;
+}
+
+main .container {
+    background-color: purple;
+    height: 100%;
+}
+
+aside section {
+    height: 350px;
+    width: 100%;
+}
+
+aside section.left:first-child {
+    height: 500px;
+    padding-bottom: 20px;
+}
+
+aside section.left:nth-child(2) {
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+aside section.left:nth-child(3) {
+    height: 300px;
+}
+
+
+
+aside section.right:first-child {
+    padding-bottom: 20px;
+    height: 100px;
+}
+
+aside section.right:nth-child(2) {
+    height:200px;
+}
+
+
+section .container {
+    background-color: violet;
+    height: 100%;
+    width: 100%;
+}
+
+
+footer {
+    height: 200px;
+    padding: 10px;
+}
+
+footer .container {
+    background-color: lightblue;
+    height: 100%;
+}
