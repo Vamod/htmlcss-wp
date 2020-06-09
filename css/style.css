@@ -111,8 +111,13 @@ aside section.left {
     padding-bottom: 20px;
 }
 
-section.left .container {
+section.left .container, section.right .container {
     padding: 10px;
+}
+
+section.left h4 {
+    display: inline-block;
+    font-size: 20px;
 }
 
 section.left i {
@@ -120,25 +125,12 @@ section.left i {
     color: orange;
 }
 
-
 section.left p {
+    line-height: 25px;
+    margin: 10px 0px;
     color: green;
 }
 
-aside section.right:first-child {
-    padding-bottom: 20px;
-}
-
-aside section.right:nth-child(2) {
-    padding-bottom: 20px;
-}
-
-
-section .container {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-}
 
 main {
     width: 50%;
@@ -158,17 +150,62 @@ main h4 {
     font-size: 25px;
 }
 
-section.left p {
-    line-height: 25px;
-    margin: 10px 0px;
+section.right h4 {
+    margin-bottom: 20px;
 }
 
+section.right p {
+    line-height: 25px;
+}
+
+aside section.right:first-child {
+    padding-bottom: 20px;
+}
+
+aside section.right:nth-child(2) {
+    padding-bottom: 20px;
+}
+
+
+section .container {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
 footer {
-    height: 200px;
+    height: 150px;
     padding: 10px;
 }
 
 footer .container {
     background-color: white;
     height: 100%;
+    position: relative;
+}
+
+.text-footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    padding: 10px;
+    color: grey;
+    border-bottom: 2px solid gray;
+}
+
+.barra-loghi {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    bottom:  0;
+    left: 0;
+}
+
+.barra-loghi i {
+    font-size: 40px;
+    padding: 0 100px;
+    color: grey;
 }
